@@ -3,19 +3,67 @@ body {
   margin: 0;
 }
 
-.top-container {
-  background-color: #ffd371;
+body {
+  font-family: 'Tinos', serif;
+  text-align: center; /*text-align: center in a parent container will center everything in it unless it is given 
+                        width property. In that case use margin auto in the element u want to center*/
+}
 
+h1 {
+  /* width:10%; */
+  font-family: 'Yellowtail', cursive;
+  margin-top: 0;
+}
+
+h2{
+  font-family: 'Raleway', sans-serif;
+}
+
+h3{
+  font-family: 'Raleway', sans-serif;
+}
+
+.top-container {
+  background-color: #4e89ae;
+  position: relative;
+  padding-top: 90px;
 }
 
 .middle-container {
-  background-color: #ff4848;
+  background-color: #ed6663;
   height: 200px;
   width: 200px;
 }
 
 .bottom-container {
-  background-color: #c2ffd9;
+  background-color: #43658b;
   height: 200px;
   width: 200px;
 }
+
+.top-cloud {
+  position: absolute;
+  right: 350px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+/* .hat{
+  height: 200px;
+  width:200px;
+}
+
+.menacing{
+  height: 200px;
+  width:200px;
+}
+
+.kakyoin{
+  height: 200px;
+  width:200px;
+} */
