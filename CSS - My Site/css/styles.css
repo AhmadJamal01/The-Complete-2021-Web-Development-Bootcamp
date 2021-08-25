@@ -11,6 +11,7 @@ body {
 
 h1 {
   /* width:10%; */
+  color: #66BFBF;
   font-family: 'Yellowtail', cursive;
   /* font size=> 100% = 16px = 1em/
   /* 90px/16px = 562.5% = 5.625.= em*/
@@ -20,13 +21,20 @@ h1 {
 }
 
 h2{
+  color: #66BFBF;
   font-family: 'Raleway', sans-serif;
   /*40px/16px = 2.5 em */
   font-size: 2.5rem;
+  font-weight: normal;
 }
 
 h3{
+  color: #11999E;
   font-family: 'Raleway', sans-serif;
+}
+
+a{
+  color: #11999E
 }
 
 .middle-container img{
@@ -35,17 +43,17 @@ h3{
  }
 
 .top-container {
-  background-color: #4e89ae;
+  background-color: #F6F5F5;
   position: relative;
   padding-top: 90px;
 }
 
 .middle-container {
-  background-color: #ed6663;
+  background-color: #D3E0EA;
 }
 
 .bottom-container {
-  background-color: #43658b;
+  background-color: #B8B5FF;
   position: relative;
   padding-top: 10px;
 }
@@ -61,6 +69,7 @@ h3{
   left: 300px;
   bottom: 250px;
 }
+
 
 /* .hat{
   height: 200px;
