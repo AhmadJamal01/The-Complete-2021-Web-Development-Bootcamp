@@ -37,9 +37,13 @@ a{
   color: #11999E
 }
 
-.middle-container img{
+/* .middle-container img{
    height: 350px;
    width: 350px;
+  } */
+ .profile-pic{
+    height: 350px;
+    width: 350px;  
  }
 
 .top-container {
@@ -70,6 +74,33 @@ a{
   bottom: 250px;
 }
 
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.coder{
+  float: left;
+  margin-right: 30px;
+  position: relative; /*extra*/
+  top: -20px; /*extra*/
+  width: 25%;
+}
+
+.kakyoin{
+  float: right;
+  margin-left: 30px;
+  position: relative; /*extra*/
+  top: -20px; /*extra*/
+  width: 25%;
+} 
+
+/* 
+.skill-row h3,.skill-row p{
+  text-align: left;
+} */
 
 /* .hat{
   height: 200px;
