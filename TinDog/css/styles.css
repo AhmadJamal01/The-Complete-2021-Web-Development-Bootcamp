@@ -54,3 +54,38 @@ h1 {
     transform: rotate(25deg);
     width: 60%;
 }
+
+/* Features Section */
+
+#features{
+  /* margin: 100px 75px; */
+  padding: 7% 15%;
+}
+
+#features div/*,.col-lg-4 .fas,.col-lg-4 h3,.col-lg-4 p*/{  
+    margin: 5% auto;
+    text-align: center;
+  }
+  
+  /*#features path*/.features-icon{
+    color: #ef8172; 
+    font-size: 4rem; /*you also could have added a class from fontawesome to the icon html */
+  }
+
+  .features-icon:hover{
+    color:#ff4c68;
+  }
+  
+  #features h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin: 3% auto;
+  }
+
+  #features p{
+    width: 50%;
+    margin: 0 auto;
+    color: #8f8f8f;
+    line-height: 1.5;
+  }
