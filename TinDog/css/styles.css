@@ -22,7 +22,8 @@ h2{
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 6%;
+
 }
 
 
@@ -57,9 +58,10 @@ h2{
 /* Title Image */
 
 .title-image {
+    width: 20%;
     overflow: hidden;
     transform: rotate(25deg);
-    width: 60%;
+    position: absolute;
 }
 
 /* Features Section */
@@ -67,6 +69,9 @@ h2{
 #features{
   /* margin: 100px 75px; */
   padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  /* z-index: 1; */
 }
 
 #features div/*,.col-lg-4 .fas,.col-lg-4 h3,.col-lg-4 p*/{  
@@ -123,4 +128,18 @@ h2{
   .press-logo{
     width: 15%;
     margin: 20px 20px 50px;
+  }
+
+  /* Pricing Section */
+  #pricing{
+    padding: 100px;
+    text-align: center;
+  }
+
+  .pricing-col{
+    padding: 3% 2%;
+  }
+
+  .pricing-col h3{
+    margin: 0;
   }
