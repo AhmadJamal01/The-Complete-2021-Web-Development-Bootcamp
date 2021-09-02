@@ -64,6 +64,19 @@ h2{
     right: 20%;
 }
 
+@media (max-width: 990px){
+  
+  #title{
+    text-align: center;
+  }
+  
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
+
 /* Features Section */
 
 #features{
