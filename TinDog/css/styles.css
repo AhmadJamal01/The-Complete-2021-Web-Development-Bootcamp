@@ -156,3 +156,38 @@ h2{
   .pricing-col h3{
     margin: 0;
   }
+
+  /* Call to action section  */
+
+  #cta{
+    text-align: center;
+    background-color: #ff4c68;
+  }
+
+  #cta h3{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding: 50px;
+  }
+
+  #cta .download-button{
+    margin: 0 3% 10% 3%;
+  }
+
+  /* footer section  */
+  #footer{
+    text-align: center;
+    padding: 7%;
+  }
+
+  #footer p{
+    padding: 3%;
+    margin: 0;
+    font-size: 0.8rem;
+  }
+
+  #footer img{
+    padding: 1%;
+  }
