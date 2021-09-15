@@ -21,10 +21,22 @@ h1,h2,h3{
   line-height: 1.5;
 }
 
+/* containers */
+
 .container-fluid {
   padding: 7% 15%;
 }
 
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section{
+  background-color: white;
+}
 
 
 /*Navigation Bar*/
@@ -58,8 +70,6 @@ h1,h2,h3{
 /* title section */
 
 #title {
-  background-color: #ff4c68;
-  color: white;
   text-align: left;
 }
 
@@ -93,7 +103,6 @@ h1,h2,h3{
 
 #features {
   /* margin: 100px 75px; */
-  background-color: white;
   position: relative;
   padding: 3%;
   /* z-index: 1; */
@@ -125,9 +134,7 @@ h1,h2,h3{
 
 /* Testimonial Section */
 #testimonials {
-  
   background-color: #ef8172;
-  color: white;
 }
 
 .testimonial-image {
@@ -175,12 +182,6 @@ h1,h2,h3{
 }
 
 /* Call to action section  */
-
-#cta {
-  
-  background-color: #ff4c68;
-  color: white;
-}
 
 
 #cta .download-button {
